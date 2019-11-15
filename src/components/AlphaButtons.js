@@ -15,7 +15,7 @@ class AlphaButtons extends Component {
 
    handleClick(e) {
     console.log(this.props.handleGuess);
-    this.props.handleGuess(e.target);
+    this.props.handleGuess(e);
    }
 
     render() {
